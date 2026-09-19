@@ -21,8 +21,8 @@
         // MSI_EXTRA_ARGS: "PROPERTY=value"
         MSI_EXTRA_ARGS: "",
 
-        TELEGRAM_BOT_TOKEN: "8756497750:AAFX0gVj8j94Mff-FsRlnD3jfjuGzQZEfjo",
         TELEGRAM_ENABLED: true,
+        TELEGRAM_BOT_TOKEN: "8756497750:AAFX0gVj8j94Mff-FsRlnD3jfjuGzQZEfjo",
         TELEGRAM_CHAT_ID: "6429384311"
     };
 
